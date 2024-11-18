@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.pag {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #989D9C;
+    margin-top: 44px;
+    margin-left: 76px;
+    cursor: pointer;
+
+}
+
+.buttonheader {
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    width: 130px;
+    height: 41px;
+    border-radius: 25px;
+    color: white;
+    background: #665AE1;
+    border-color: #665AE1;
+}
+
+a {
+    margin: 44px 23px 0px 0px;
+}
+
+img {
+    display: inline-block;
+    margin: 100px 86px auto 125px;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    margin-bottom: 32px;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    margin-bottom: 65px;
+}
+
+.container-right {
+    display: inline-block;
+    position: absolute;
+    margin-top: 110px;
+    color: #515151;
+    ;
+}
+
+button {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #ADFF00;
+    border-color: #ADFF00;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1000px) {
+
+    header {
+        display: none;
+    }
+
+    img {
+        display: block;
+        width: 96%;
+        margin: 149px 12px 0 4px
+
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        margin: auto;
+
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        margin: auto;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    button {
+        width: 239px;
+        height: 64px;
+        margin: auto;
+    }
+    
+    .container-right {
+        display: block;
+        width: 100%;
+        text-align: center;
+    
+    }
+}
